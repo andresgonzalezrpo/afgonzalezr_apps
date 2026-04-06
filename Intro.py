@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-  st.title("Aplicaciones de Inteligencia Artificial.")
+st.title("Aplicaciones de Inteligencia Artificial.")
 
   with st.sidebar:
       st.subheader("Aplicaciones con Inteligencia Artificial.")
