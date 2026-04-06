@@ -1,5 +1,5 @@
- import streamlit as st
- from PIL import Image
+import streamlit as st
+from PIL import Image
 
   st.title("Aplicaciones de Inteligencia Artificial.")
 
