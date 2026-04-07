@@ -11,12 +11,12 @@ with st.sidebar:
       )
       st.write(parrafo)
 
-  url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
-  st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-  st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
+url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
+st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
+st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 
   # --- Fila 1 ---
-  col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(3)
 
   with col1:
       st.subheader("Detección de Objetos en Imágenes")
